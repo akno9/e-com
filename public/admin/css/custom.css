@@ -1,0 +1,16 @@
+.cate-image{
+    width: 70px;
+    height: 70px;
+}
+
+td.limited-content {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+td.limited-content:hover {
+    overflow: visible;
+    white-space: normal;
+}
